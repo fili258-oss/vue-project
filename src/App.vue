@@ -86,7 +86,7 @@ const arrayFrutas = [
 
 <template>
   <h1>Hola {{ name.toUpperCase() }} :)</h1>
-  <h2 :style="styleColor">Hola mundo</h2>
+  <h2 :style="styleColor">Hola mundo desde Vue Js</h2>
 
   <h2 :style="`color: ${arrayColores[2]}`">Soy Colombia</h2>
   <h2 v-if="active">Estoy activo</h2>
